@@ -8,9 +8,29 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 2606908588
+  numberOfFiles: 13
+  numberOfSubjects: 10
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ElectrodeGroup
+  - Units
 citation: Brain-wide mouse electrophysiology during aversive stimuli and ketamine
   (2025). (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001326/draft
 contributor:
@@ -33,6 +53,7 @@ contributor:
   - dcite:Author
   schemaKey: Person
 dateCreated: '2025-01-25T22:09:29.961947+00:00'
+datePublished: '2025-05-28T19:57:47.043354+00:00'
 description: Brain-wide electrophysiology associated with Kauvar*, Richman*, Liu*
   et al. Science (2025). https://doi.org/10.1126/science.adt3971
 ethicsApproval: []
@@ -49,7 +70,25 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001326/versions/draft/assets/
 name: Brain-wide mouse electrophysiology during aversive stimuli and ketamine
-relatedResource: []
+publishedBy:
+  endDate: '2025-05-28T19:57:47.043354+00:00'
+  id: urn:uuid:bfd23037-8765-49dd-b401-ab08e6104132
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-05-28T19:57:47.043354+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:9ee1a6fd-590d-4f80-b3bc-928cbff73110
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
+relatedResource:
+- identifier: Analysis code
+  relation: dcite:IsSupplementTo
+  repository: Analysis
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://zenodo.org/records/14876694
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
