@@ -3,9 +3,10 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.9/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
-  status: dandi:EmbargoedAccess
+  status: dandi:OpenAccess
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
@@ -18,16 +19,40 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- email: erichamc@gmail.com
+  identifier: 0000-0001-8471-266X
+  name: Richman, Ethan
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  schemaKey: Person
+- email: ikauvar@gmail.com
+  identifier: 0000-0002-1336-0721
+  name: Kauvar, Isaac
+  roleName:
+  - dcite:Author
+  schemaKey: Person
 dateCreated: '2025-01-25T22:09:29.961947+00:00'
 description: Brain-wide electrophysiology associated with Kauvar*, Richman*, Liu*
-  et al. Science (2025).
+  et al. Science (2025). https://doi.org/10.1126/science.adt3971
+ethicsApproval: []
 id: DANDI:001326/draft
 identifier: DANDI:001326
+keywords:
+- Neuropixels
+- Mouse
+- Electrophysiology
+- Ketamine
+- Timescale
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001326/versions/draft/assets/
 name: Brain-wide mouse electrophysiology during aversive stimuli and ketamine
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
 url: https://dandiarchive.org/dandiset/001326/draft
 version: draft
+wasGeneratedBy: []
