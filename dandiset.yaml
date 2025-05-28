@@ -32,7 +32,7 @@ assetsSummary:
   - ElectrodeGroup
   - Units
 citation: Brain-wide mouse electrophysiology during aversive stimuli and ketamine
-  (2025). (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001326/draft
+  (2025). (Version 0.250528.1957) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001326/0.250528.1957
 contributor:
 - awardNumber: 1 P50 DA 042012-01A1
   name: National Institutes of Health (NIH)
@@ -56,8 +56,9 @@ dateCreated: '2025-01-25T22:09:29.961947+00:00'
 datePublished: '2025-05-28T19:57:47.043354+00:00'
 description: Brain-wide electrophysiology associated with Kauvar*, Richman*, Liu*
   et al. Science (2025). https://doi.org/10.1126/science.adt3971
+doi: 10.48324/dandi.001326/0.250528.1957
 ethicsApproval: []
-id: DANDI:001326/draft
+id: DANDI:001326/0.250528.1957
 identifier: DANDI:001326
 keywords:
 - Neuropixels
@@ -68,7 +69,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001326/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001326/0.250528.1957/assets.yaml
 name: Brain-wide mouse electrophysiology during aversive stimuli and ketamine
 publishedBy:
   endDate: '2025-05-28T19:57:47.043354+00:00'
@@ -92,6 +93,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
-url: https://dandiarchive.org/dandiset/001326/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001326/0.250528.1957
+version: 0.250528.1957
 wasGeneratedBy: []
